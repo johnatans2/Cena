@@ -48,6 +48,7 @@ main{
     width:78%;
     height:100%;
     margin:0px auto;
+    box-shadow:0px 10px 20px 0px rgba(0, 0, 0, 0.6);
 }
 /*  Banner  */
 .Banner{
@@ -141,4 +142,17 @@ main{
     font-size:1.4em;
     font-weight:400;
 }
-/*  Mosaico Atrativo    */
+/*  Mosaico Atrativo   */
+.mosaico{
+    width:100%;
+    display:flex;
+}
+.mosaico img{
+    width:60%;
+}
+.mosaico div{
+    width:40%;
+    background-color:#bbb;
+    padding:13% 0% 0% 5%;
+    font-size:1.35em;
+}
